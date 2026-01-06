@@ -1,0 +1,54 @@
+{
+  "name": "@emcy/sdk",
+  "version": "0.1.0",
+  "description": "Emcy telemetry SDK for MCP servers - track tool invocations, errors, and performance",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "emcy",
+    "mcp",
+    "model-context-protocol",
+    "telemetry",
+    "observability",
+    "logging",
+    "ai",
+    "llm",
+    "tools",
+    "analytics"
+  ],
+  "author": "Emcy <hello@emcy.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emcy-ai/emcy.git",
+    "directory": "packages/emcy-sdk"
+  },
+  "homepage": "https://emcy.ai",
+  "bugs": {
+    "url": "https://github.com/emcy-ai/emcy/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  }
+}
