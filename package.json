@@ -1,6 +1,6 @@
 {
   "name": "@emcy/sdk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -47,12 +47,9 @@
     "url": "git+https://github.com/emcy-ai/emcy-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/emcy-ai/emcy-sdk/issues"
-  },
-  "homepage": "https://emcy.ai",
-  "bugs": {
     "url": "https://github.com/emcy-ai/emcy/issues"
   },
+  "homepage": "https://emcy.ai",
   "engines": {
     "node": ">=20.0.0"
   },
